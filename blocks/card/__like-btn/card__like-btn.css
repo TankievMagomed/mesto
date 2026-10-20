@@ -1,0 +1,17 @@
+.card__like-btn{
+  margin-right: 15px;
+  padding: 0;
+  min-width: 22px;
+  min-height: 19px;
+  background-image: url(../../../image/card-img-disabled.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  border: none;
+}
+
+.card__like-btn:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
