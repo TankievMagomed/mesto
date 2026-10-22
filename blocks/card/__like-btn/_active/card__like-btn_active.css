@@ -1,0 +1,11 @@
+.card__like-btn_active{
+  margin-right: 15px;
+  padding: 0;
+  min-width: 22px;
+  min-height: 19px;
+  background-image: url(../../../../image/icon/card-active.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  border: none;
+}

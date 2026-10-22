@@ -1,0 +1,19 @@
+.popup__user-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 358px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border:none;
+  margin-top: 54px;
+  gap:30px;
+}
+
+@media screen and (max-width:767px) {
+  .popup__user-info{
+    max-width: 238px;
+  }
+
+}
