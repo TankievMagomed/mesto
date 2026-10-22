@@ -1,6 +1,6 @@
 # Проект: Место
 
-**Демо:** [открыть сайт](https://tankievmagomed.github.io/russian-travel/)
+**Демо:** [открыть сайт](https://tankievmagomed.github.io/mesto/)
 
 ![Главный экран, 1280px](./images/screenshot_1.png)
 ![Версия для планшета, 768px](./images/screenshot_2.png)
