@@ -9,3 +9,7 @@
   background-color: #fff;
   border: none;
 }
+
+.card__like-btn_active:hover {
+  cursor: pointer;
+}

@@ -1,5 +1,6 @@
 .elements__item{
    width: 100%;
+   max-height: 361px;
   margin: 0;
   padding: 0;
 }
