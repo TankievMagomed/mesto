@@ -8,7 +8,7 @@
     <meta name="keywords" content="html, css, js" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>
-      Cервис Mesto: страница, куда можно добавлять фотографии, удалять их и
+      Сервис Mesto: страница, куда можно добавлять фотографии, удалять их и
       ставить лайки
     </title>
   </head>
@@ -16,7 +16,7 @@
     <div class="page">
       <header class="header">
         <img
-          alt="логотип проекта Mesto Russia (сдела ввиде текста)"
+          alt="логотип проекта Mesto Russia"
           class="header__logo"
           src="./images/icon/logo.svg"
         />
@@ -44,14 +44,11 @@
             <template id="card">
               <li class="elements__item">
                 <figure class="card">
-                  <img
-                    class="card__img"
-                    src=""
-                    alt=""
-                  />
+                  <img class="card__img" src="#" alt="" />
                   <figcaption class="card__name-container">
                     <h2 class="card__name"></h2>
                     <button type="button" class="card__like-btn"></button>
+                    <button type="button" class="card__delete-btn"></button>
                   </figcaption>
                 </figure>
               </li>
@@ -64,14 +61,14 @@
       </footer>
       <section class="popup" id="profile-form">
         <form class="popup__container" name="profile-form">
-          <legend class="popup__title">Редактировать профиль</legend>
           <fieldset class="popup__user-info">
+            <legend class="popup__title">Редактировать профиль</legend>
             <label class="popup__label" for="profile-name">
               <input
                 type="text"
                 id="profile-name"
                 name="name"
-                class="popup__input-name"
+                class="popup__input"
                 required
               />
             </label>
@@ -80,7 +77,7 @@
                 type="text"
                 id="profile-description"
                 name="description"
-                class="popup__input-description"
+                class="popup__input"
                 required
               />
             </label>
@@ -91,30 +88,39 @@
       </section>
       <section class="popup" id="card-form">
         <form class="popup__container" name="card-form">
-          <legend class="popup__title">Новое место</legend>
           <fieldset class="popup__user-info">
-            <label class="popup__label" for="profile-name">
+            <legend class="popup__title">Новое место</legend>
+            <label class="popup__label" for="card-name">
               <input
                 type="text"
-                id="profile-name"
-                name="name"
-                class="popup__input-name"
+                id="card-name"
+                name="card-name"
+                class="popup__input"
                 placeholder="Название"
+                required
               />
             </label>
-            <label class="popup__label" for="profile-description">
+            <label class="popup__label" for="card-link">
               <input
-                type="text"
-                id="profile-description"
-                name="description"
-                class="popup__input-description"
+                type="url"
+                id="card-link"
+                name="card-link"
+                class="popup__input"
                 placeholder="Ссылка на картинку"
+                required
               />
             </label>
           </fieldset>
           <button type="submit" class="popup__btn-save">Создать</button>
           <button type="button" class="popup__btn-close"></button>
         </form>
+      </section>
+      <section class="popup" id="image-full">
+        <figure class="popup__container-image">
+          <img class="popup__full-image" alt="" src="#" />
+          <figcaption class="popup__caption"></figcaption>
+          <button type="button" class="popup__btn-close"></button>
+        </figure>
       </section>
     </div>
     <script src="./scripts/index.js"></script>

@@ -4,16 +4,16 @@
   align-items: center;
   max-width: 358px;
   width: 100%;
-  margin: 0;
   padding: 0;
   border:none;
-  margin-top: 54px;
+  margin: 34px auto 0 auto;
   gap:30px;
 }
 
 @media screen and (max-width:767px) {
   .popup__user-info{
     max-width: 238px;
+     margin: 25px auto 0 auto;
   }
 
 }
